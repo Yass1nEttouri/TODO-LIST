@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <style>
@@ -27,8 +27,8 @@ div.desc{
 
 h2{
     font-size: 30px;
-    font-weight: bold;
     color: #e4e41a;
+    font-weight: 500;
 }
 
 p a{
@@ -37,12 +37,21 @@ p a{
     color: #e4e41a;
 }
 
+span{
+    font-weight: 600;
+    text-align: center;
+    color: #b5b5b5;
+    margin-top: -6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 div.login{
-    border: 3px solid #e4e41a;
-    padding: 25px 20px;
     max-width: 650px;
     width: 100%;
+    padding: 25px 20px;
     border-radius: 7px;
+    box-shadow: 0px 0px 15px 4px  #e0e025;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,23 +79,42 @@ div.hyperlinks a:nth-child(3){
     background-color: white;
 }
 
+.divider {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1; 
+    border-bottom: 1px solid #cbcbcb; 
+}
 
 </style>
 <body>
 
     <div class="login">
-        <h2>Sign in/Sign up</h2>
+        <h2>Sign up</h2>
         <div class="desc">
             <p>Organize your daily activities with simplicity and precision.</p>
             <p>Manage your priorities, complete your goals: your Todo List awaits you.</p>
         </div>
         
         <div class="hyperlinks">
-            <a>Continue with google</a>
-            <a>Continue with facebook</a>
+            <a>Continue with Google</a>
+            <a>Continue with Facebook</a>
+            <div class="divider">
+                <span>or</span>
+            </div>
+            
             <a>Sign up with email</a>
         </div>
-        <p class="smp">Already have an account?<a href="login.hmtl">Log in</a></p>
+        <p class="smp">Already have an account?<a href="login.html">Log in</a></p>
     </div>
     
 </body>
