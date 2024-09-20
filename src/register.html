@@ -73,10 +73,19 @@ div.hyperlinks a{
     color: black;
     padding: 15px;
     margin-top: 5px;
+    cursor: pointer;
 }
-
-div.hyperlinks a:nth-child(3){
-    background-color: white;
+div.hyperlinks a:hover{
+    opacity: 0.95;
+}
+div.hyperlinks a.tha{
+    background-color: black;
+    color: #e0e025;
+    border: 3px solid #e0e025;
+}
+div.hyperlinks a.tha:hover{
+    background-color: #e0e025;
+    color: black;
 }
 
 .divider {
@@ -87,7 +96,6 @@ div.hyperlinks a:nth-child(3){
     text-align: center;
     margin: 20px 0;
 }
-
 .divider::before,
 .divider::after {
     content: "";
@@ -111,8 +119,7 @@ div.hyperlinks a:nth-child(3){
             <div class="divider">
                 <span>or</span>
             </div>
-            
-            <a>Sign up with email</a>
+            <a href="signup.html" class="tha">Sign up with email</a>
         </div>
         <p class="smp">Already have an account?<a href="login.html">Log in</a></p>
     </div>
