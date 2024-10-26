@@ -1,0 +1,16 @@
+
+//Da fare in register.html
+Come collegare il proprio account google/facebook?
+
+
+
+
+
+//Da fare in index.html
+Come troncare un testo generico con dei puntini/oppure mettere a capo in automatico?
+Come nascondere la barra di scroll?fatto
+Come nascondere il contenuto di un div se supera una certa altezza?fatto
+Come personallizzare un checkbox?fatto
+Come togliere il fill da un icona generica?fatto
+Come cambiare contenuto di una certa pagina su azione di hyperlink per esempio?da fate con JS
+Come visualizzare dei popup informativi in generale?

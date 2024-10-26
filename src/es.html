@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Stili per il contenitore */
+        .task-container {
+            width: 600px;
+            height: 800px;
+            background-color: #7e7b7b;
+            overflow: hidden;
+            position: relative;
+            color: white;
+ /*            width: 300px;              
+            height: 200px;            
+            background-color: #282828; 
+            padding: 10px;
+            border-radius: 8px;
+            overflow: hidden;         
+            position: relative; */
+        }
+
+        /* Stili per le task */
+        .task-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            max-height: 100%;
+            overflow-y: auto;
+/*             display: flex;
+            flex-direction: column;     
+            gap: 10px;                 
+            overflow-y: auto;           
+            max-height: 100%;           
+            padding-right: 10px;   */      
+        }
+        
+        .task {
+            width: 500px;
+            display:inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #3b3b3b;
+/*             background-color: #3d3d3d;
+            color: white;
+            padding: 15px;
+            border-radius: 5px; */
+        }
+
+        /* Nascondi la scrollbar su Chrome, Safari e Edge */
+        .task-content::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Nascondi la scrollbar su Firefox */
+        .task-content {
+            scrollbar-width: none;
+        }
+    </style>
+    <title>Scrollable Tasks</title>
+</head>
+<body>
+
+    <div class="task-container">
+        <div class="task-content">
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 1</div>
+            <div class="task">Task 2</div>
+            <div class="task">Task 3</div>
+            <div class="task">Task 4</div>
+            <div class="task">Task 5</div>
+            <div class="task">Task 6</div>
+            <div class="task">Task 7</div>
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 7</div>
+
+            <div class="task">Task 1</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 7</div>
+
+            <div class="task">Task 1</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 7</div>
+
+            <div class="task">Task 1</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 7</div>
+
+            <div class="task">Task 1</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 7</div>
+
+            <div class="task">Task 1</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6</div>
+
+            <div class="task">Task 7</div>
+
+            <div class="task">Task 1</div>
+
+            <div class="task">Task 2</div>
+
+            <div class="task">Task 3</div>
+
+            <div class="task">Task 4</div>
+
+            <div class="task">Task 5</div>
+
+            <div class="task">Task 6 finale</div>
+
+        </div>
+    </div>
+
+</body>
+</html>
