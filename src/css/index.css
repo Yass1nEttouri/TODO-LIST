@@ -43,12 +43,23 @@ div.sidebar div.user-info{
 div.sidebar div.user-info p{
     margin: 4px;
 }
+div.user-info p{
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+}
+div.info p.description{
+    white-space: normal;
+    word-wrap: break-word;
+}
 p.username{
     font-size: 15px;
     font-weight: bold;
 }
 p.email{
     font-size: 12px;
+
 }
 .avatar{
     vertical-align: middle;
@@ -94,7 +105,7 @@ div.task-container{
     height: 800px;
     background-color: #7e7b7b;
     position: relative;
-    color: white;
+    color: #000;
 }
 div.task-content{
     display: flex;
@@ -114,14 +125,14 @@ div.task-content{
 }
 div.task-container div.task{
     width: 500px;
-    display:inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     padding: 15px;
     border-radius: 8px;
-    background-color: #2b2b2b;
+    background-color: #ffffff;
 }
 div.task-container div.task:hover{
     opacity: 0.85;
@@ -137,7 +148,7 @@ div.task-info div.info{
     margin-left: 20px;
 }
 p.description{
-    font-size: 23px;
+    font-size: 20px;
 }
 p.time-stamp{
     font-size: small;
@@ -145,6 +156,7 @@ p.time-stamp{
 
 div.operations{
     display: flex;
+    align-items: center;
     height: 100%;
 }
 div.operations div{
@@ -153,12 +165,7 @@ div.operations div{
     display: flex;
     background-color: inherit;
 }
-div.delete,
-div.fav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 div.delete i{
     color: #af2424;
     opacity: 0.8;
@@ -170,14 +177,16 @@ div.fav svg{
 div.operations svg,i{
     cursor: pointer;
 }
-
-/* Nascondi la checkbox di default */
+div.cbox{
+    align-content: center;
+}
+/* hide checkbox as default */
 input[type="checkbox"] {
     width: 24px;
     height: 24px;
+    margin-left: 5px;
     appearance: none;
     opacity: 0.7;
-    align-self: center;
     border-radius: 15px;
     border: 1px solid green;
     transition: all 0.4s ease;
@@ -186,7 +195,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
     background-color: green;
 }
-/* Aggiungi la "v" bianca quando selezionata */
+/* add "v" when checkbox is checked*/
 input[type="checkbox"]:checked::after {
     content: "";
     position: relative;
@@ -198,4 +207,24 @@ input[type="checkbox"]:checked::after {
     transform: rotate(45deg);
     top: 3px;
     left: 6.5px;
+}
+
+/* add task button */
+button.add-task{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    padding: 4px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    background-color: green;
+}
+button.add-task:hover{
+    background-color: #000;
+    transform: scale(1.1);
 }
