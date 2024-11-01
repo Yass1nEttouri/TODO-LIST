@@ -1,0 +1,476 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Name 1",
+            "surname": "Surname 1",
+            "username": "user1",
+            "email": "user1@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Name 2",
+            "surname": "Surname 2",
+            "username": "user2",
+            "email": "user2@example.com"
+        },
+        {
+            "id": 3,
+            "name": "Name 3",
+            "surname": "Surname 3",
+            "username": "user3",
+            "email": "user3@example.com"
+        },
+        {
+            "id": 4,
+            "name": "Name 4",
+            "surname": "Surname 4",
+            "username": "user4",
+            "email": "user4@example.com"
+        },
+        {
+            "id": 5,
+            "name": "Name 5",
+            "surname": "Surname 5",
+            "username": "user5",
+            "email": "user5@example.com"
+        },
+        {
+            "id": 6,
+            "name": "Name 6",
+            "surname": "Surname 6",
+            "username": "user6",
+            "email": "user6@example.com"
+        },
+        {
+            "id": 7,
+            "name": "Name 7",
+            "surname": "Surname 7",
+            "username": "user7",
+            "email": "user7@example.com"
+        },
+        {
+            "id": 8,
+            "name": "Name 8",
+            "surname": "Surname 8",
+            "username": "user8",
+            "email": "user8@example.com"
+        },
+        {
+            "id": 9,
+            "name": "Name 9",
+            "surname": "Surname 9",
+            "username": "user9",
+            "email": "user9@example.com"
+        },
+        {
+            "id": 10,
+            "name": "Name 10",
+            "surname": "Surname 10",
+            "username": "user10",
+            "email": "user10@example.com"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "taskDesc": "Completa la revisione del progetto",
+            "timestamp": "01/11/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 2,
+            "taskDesc": "Invia l'email di follow-up",
+            "timestamp": "31/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 3,
+            "taskDesc": "Organizza una riunione con il team",
+            "timestamp": "30/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 4,
+            "taskDesc": "Aggiorna il documento di specifiche",
+            "timestamp": "29/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 5,
+            "taskDesc": "Testa la nuova funzionalit\u00e0",
+            "timestamp": "28/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 6,
+            "taskDesc": "Scrivi la documentazione tecnica",
+            "timestamp": "27/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 7,
+            "taskDesc": "Crea un prototipo per il cliente",
+            "timestamp": "26/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 8,
+            "taskDesc": "Analizza i dati di vendita",
+            "timestamp": "25/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 9,
+            "taskDesc": "Prepara la presentazione per la conferenza",
+            "timestamp": "24/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 10,
+            "taskDesc": "Sviluppa il modulo di registrazione",
+            "timestamp": "23/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 11,
+            "taskDesc": "Controlla le richieste di supporto",
+            "timestamp": "22/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 12,
+            "taskDesc": "Implementa il feedback ricevuto",
+            "timestamp": "21/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 13,
+            "taskDesc": "Rivedi le metriche di prestazione",
+            "timestamp": "20/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 14,
+            "taskDesc": "Ottimizza il codice esistente",
+            "timestamp": "19/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 15,
+            "taskDesc": "Aggiorna il sito web",
+            "timestamp": "18/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 16,
+            "taskDesc": "Esegui un controllo qualit\u00e0",
+            "timestamp": "17/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 17,
+            "taskDesc": "Pianifica le attivit\u00e0 per la settimana",
+            "timestamp": "16/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 18,
+            "taskDesc": "Contatta il fornitore",
+            "timestamp": "15/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 19,
+            "taskDesc": "Prepara un rapporto di avanzamento",
+            "timestamp": "14/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 20,
+            "taskDesc": "Definisci i requisiti per il nuovo software",
+            "timestamp": "13/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 21,
+            "taskDesc": "Gestisci il budget del progetto",
+            "timestamp": "12/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 22,
+            "taskDesc": "Monitora le scadenze",
+            "timestamp": "11/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 23,
+            "taskDesc": "Stabilisci gli obiettivi per il prossimo trimestre",
+            "timestamp": "10/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 24,
+            "taskDesc": "Raccogli il feedback degli utenti",
+            "timestamp": "09/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 25,
+            "taskDesc": "Verifica l'installazione dell'hardware",
+            "timestamp": "08/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 26,
+            "taskDesc": "Sviluppa un piano di marketing",
+            "timestamp": "07/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 27,
+            "taskDesc": "Conduci un'intervista con il cliente",
+            "timestamp": "06/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 28,
+            "taskDesc": "Studia la concorrenza",
+            "timestamp": "05/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 29,
+            "taskDesc": "Aggiorna il profilo aziendale sui social",
+            "timestamp": "04/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 30,
+            "taskDesc": "Rispondi ai commenti sui social media",
+            "timestamp": "03/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 31,
+            "taskDesc": "Ricerca nuove tecnologie",
+            "timestamp": "02/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 32,
+            "taskDesc": "Valuta i fornitori di servizi",
+            "timestamp": "01/10/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 33,
+            "taskDesc": "Organizza una formazione per il personale",
+            "timestamp": "30/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 34,
+            "taskDesc": "Fai un audit di sicurezza",
+            "timestamp": "29/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 35,
+            "taskDesc": "Analizza i costi di produzione",
+            "timestamp": "28/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 36,
+            "taskDesc": "Crea un piano di emergenza",
+            "timestamp": "27/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 37,
+            "taskDesc": "Sviluppa un'app mobile",
+            "timestamp": "26/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 38,
+            "taskDesc": "Implementa un sistema di feedback",
+            "timestamp": "25/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 39,
+            "taskDesc": "Ottimizza le campagne pubblicitarie",
+            "timestamp": "24/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 40,
+            "taskDesc": "Crea contenuti per il blog",
+            "timestamp": "23/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 41,
+            "taskDesc": "Controlla il traffico del sito web",
+            "timestamp": "22/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 42,
+            "taskDesc": "Monitora le prestazioni della rete",
+            "timestamp": "21/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 43,
+            "taskDesc": "Pianifica una campagna di email marketing",
+            "timestamp": "20/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 44,
+            "taskDesc": "Gestisci i reclami dei clienti",
+            "timestamp": "19/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 45,
+            "taskDesc": "Esegui una revisione delle politiche aziendali",
+            "timestamp": "18/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 46,
+            "taskDesc": "Analizza le recensioni dei clienti",
+            "timestamp": "17/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 47,
+            "taskDesc": "Prepara un piano di lancio",
+            "timestamp": "16/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 48,
+            "taskDesc": "Studia le tendenze di mercato",
+            "timestamp": "15/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 49,
+            "taskDesc": "Crea una strategia di contenuto",
+            "timestamp": "14/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        },
+        {
+            "id": 50,
+            "taskDesc": "Controlla l'inventario",
+            "timestamp": "13/09/2024 - 17:01",
+            "favoriteTask": false,
+            "completed": false,
+            "deleted": false
+        }
+    ]
+}
