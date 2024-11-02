@@ -4,7 +4,7 @@ const controller = new AbortController();
 const signal = controller.signal;
 
 // Fetching users
-async function getUsers() {
+export async function getUsers() {
     try {
         const response = await fetch("http://localhost:3000/users",{signal});
         const data = await response.json();
@@ -18,16 +18,9 @@ async function getUsers() {
         }
     }
 }
-export async function useUsers() {
-    const utenti =  await getUsers();
-
-    utenti.forEach((user) => {
-        console.log(`utente ${user.name} with id ${user.id}`);
-    });
-}
 
 // Fetching todos
-async function getTodos() {
+export async function getTodos() {
     try {
         const response = await fetch("http://localhost:3000/tasks",{signal});
         const data = await response.json();
@@ -42,13 +35,7 @@ async function getTodos() {
         }
     }
 }
-export async function useTodos(){
-    const todos = await getTodos();
-    todos.forEach((todo) => {
-        if(todo.id <= 20)
-            console.log(`todo ${todo.id}: ${todo.taskDesc} `);
-    })
-}
+
 
 // Posting user on db.json
 export async function postUser(newUserData) {

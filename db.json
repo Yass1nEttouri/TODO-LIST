@@ -74,6 +74,7 @@
     "tasks": [
         {
             "id": 1,
+            "createdByuser": 2,
             "taskDesc": "Completa la revisione del progetto",
             "timestamp": "01/11/2024 - 17:01",
             "favoriteTask": false,
@@ -82,6 +83,7 @@
         },
         {
             "id": 2,
+            "createdByuser": 2,
             "taskDesc": "Invia l'email di follow-up",
             "timestamp": "31/10/2024 - 17:01",
             "favoriteTask": false,
@@ -90,6 +92,7 @@
         },
         {
             "id": 3,
+            "createdByuser": 3,
             "taskDesc": "Organizza una riunione con il team",
             "timestamp": "30/10/2024 - 17:01",
             "favoriteTask": false,
@@ -98,6 +101,7 @@
         },
         {
             "id": 4,
+            "createdByuser": 2,
             "taskDesc": "Aggiorna il documento di specifiche",
             "timestamp": "29/10/2024 - 17:01",
             "favoriteTask": false,
@@ -106,6 +110,7 @@
         },
         {
             "id": 5,
+            "createdByuser": 2,
             "taskDesc": "Testa la nuova funzionalit\u00e0",
             "timestamp": "28/10/2024 - 17:01",
             "favoriteTask": false,
@@ -122,6 +127,7 @@
         },
         {
             "id": 7,
+            "createdByuser": 2,
             "taskDesc": "Crea un prototipo per il cliente",
             "timestamp": "26/10/2024 - 17:01",
             "favoriteTask": false,
@@ -130,6 +136,7 @@
         },
         {
             "id": 8,
+            "createdByuser": 3,
             "taskDesc": "Analizza i dati di vendita",
             "timestamp": "25/10/2024 - 17:01",
             "favoriteTask": false,
@@ -138,6 +145,7 @@
         },
         {
             "id": 9,
+            "createdByuser": 3,
             "taskDesc": "Prepara la presentazione per la conferenza",
             "timestamp": "24/10/2024 - 17:01",
             "favoriteTask": false,
@@ -146,6 +154,7 @@
         },
         {
             "id": 10,
+            "createdByuser": 3,
             "taskDesc": "Sviluppa il modulo di registrazione",
             "timestamp": "23/10/2024 - 17:01",
             "favoriteTask": false,
@@ -154,6 +163,7 @@
         },
         {
             "id": 11,
+            "createdByuser": 3,
             "taskDesc": "Controlla le richieste di supporto",
             "timestamp": "22/10/2024 - 17:01",
             "favoriteTask": false,
@@ -162,6 +172,7 @@
         },
         {
             "id": 12,
+            "createdByuser": 3,
             "taskDesc": "Implementa il feedback ricevuto",
             "timestamp": "21/10/2024 - 17:01",
             "favoriteTask": false,
@@ -170,6 +181,7 @@
         },
         {
             "id": 13,
+            "createdByuser": 3,
             "taskDesc": "Rivedi le metriche di prestazione",
             "timestamp": "20/10/2024 - 17:01",
             "favoriteTask": false,
@@ -178,6 +190,7 @@
         },
         {
             "id": 14,
+            "createdByuser": 1,
             "taskDesc": "Ottimizza il codice esistente",
             "timestamp": "19/10/2024 - 17:01",
             "favoriteTask": false,
@@ -186,6 +199,7 @@
         },
         {
             "id": 15,
+            "createdByuser": 1,
             "taskDesc": "Aggiorna il sito web",
             "timestamp": "18/10/2024 - 17:01",
             "favoriteTask": false,
@@ -194,6 +208,7 @@
         },
         {
             "id": 16,
+            "createdByuser": 1,
             "taskDesc": "Esegui un controllo qualit\u00e0",
             "timestamp": "17/10/2024 - 17:01",
             "favoriteTask": false,
@@ -202,6 +217,7 @@
         },
         {
             "id": 17,
+            "createdByuser": 1,
             "taskDesc": "Pianifica le attivit\u00e0 per la settimana",
             "timestamp": "16/10/2024 - 17:01",
             "favoriteTask": false,
@@ -210,6 +226,7 @@
         },
         {
             "id": 18,
+            "createdByuser": 1,
             "taskDesc": "Contatta il fornitore",
             "timestamp": "15/10/2024 - 17:01",
             "favoriteTask": false,
@@ -218,6 +235,7 @@
         },
         {
             "id": 19,
+            "createdByuser": 1,
             "taskDesc": "Prepara un rapporto di avanzamento",
             "timestamp": "14/10/2024 - 17:01",
             "favoriteTask": false,
@@ -226,6 +244,7 @@
         },
         {
             "id": 20,
+            "createdByuser": 1,
             "taskDesc": "Definisci i requisiti per il nuovo software",
             "timestamp": "13/10/2024 - 17:01",
             "favoriteTask": false,
@@ -234,6 +253,7 @@
         },
         {
             "id": 21,
+            "createdByuser": 1,
             "taskDesc": "Gestisci il budget del progetto",
             "timestamp": "12/10/2024 - 17:01",
             "favoriteTask": false,
@@ -242,6 +262,7 @@
         },
         {
             "id": 22,
+            "createdByuser": 1,
             "taskDesc": "Monitora le scadenze",
             "timestamp": "11/10/2024 - 17:01",
             "favoriteTask": false,
@@ -250,6 +271,7 @@
         },
         {
             "id": 23,
+            "createdByuser": 1,
             "taskDesc": "Stabilisci gli obiettivi per il prossimo trimestre",
             "timestamp": "10/10/2024 - 17:01",
             "favoriteTask": false,
@@ -258,6 +280,7 @@
         },
         {
             "id": 24,
+            "createdByuser": 2,
             "taskDesc": "Raccogli il feedback degli utenti",
             "timestamp": "09/10/2024 - 17:01",
             "favoriteTask": false,
@@ -266,6 +289,7 @@
         },
         {
             "id": 25,
+            "createdByuser": 1,
             "taskDesc": "Verifica l'installazione dell'hardware",
             "timestamp": "08/10/2024 - 17:01",
             "favoriteTask": false,
@@ -274,6 +298,7 @@
         },
         {
             "id": 26,
+            "createdByuser": 1,
             "taskDesc": "Sviluppa un piano di marketing",
             "timestamp": "07/10/2024 - 17:01",
             "favoriteTask": false,
@@ -282,6 +307,7 @@
         },
         {
             "id": 27,
+            "createdByuser": 4,
             "taskDesc": "Conduci un'intervista con il cliente",
             "timestamp": "06/10/2024 - 17:01",
             "favoriteTask": false,
@@ -290,6 +316,7 @@
         },
         {
             "id": 28,
+            "createdByuser": 4,
             "taskDesc": "Studia la concorrenza",
             "timestamp": "05/10/2024 - 17:01",
             "favoriteTask": false,
@@ -298,6 +325,7 @@
         },
         {
             "id": 29,
+            "createdByuser": 5,
             "taskDesc": "Aggiorna il profilo aziendale sui social",
             "timestamp": "04/10/2024 - 17:01",
             "favoriteTask": false,
@@ -306,6 +334,7 @@
         },
         {
             "id": 30,
+            "createdByuser": 4,
             "taskDesc": "Rispondi ai commenti sui social media",
             "timestamp": "03/10/2024 - 17:01",
             "favoriteTask": false,
@@ -313,6 +342,7 @@
             "deleted": false
         },
         {
+            "createdByuser": 5,
             "id": 31,
             "taskDesc": "Ricerca nuove tecnologie",
             "timestamp": "02/10/2024 - 17:01",
@@ -322,6 +352,7 @@
         },
         {
             "id": 32,
+            "createdByuser": 5,
             "taskDesc": "Valuta i fornitori di servizi",
             "timestamp": "01/10/2024 - 17:01",
             "favoriteTask": false,
@@ -330,6 +361,7 @@
         },
         {
             "id": 33,
+            "createdByuser": 5,
             "taskDesc": "Organizza una formazione per il personale",
             "timestamp": "30/09/2024 - 17:01",
             "favoriteTask": false,
@@ -338,6 +370,7 @@
         },
         {
             "id": 34,
+            "createdByuser": 5,
             "taskDesc": "Fai un audit di sicurezza",
             "timestamp": "29/09/2024 - 17:01",
             "favoriteTask": false,
@@ -346,6 +379,7 @@
         },
         {
             "id": 35,
+            "createdByuser": 5,
             "taskDesc": "Analizza i costi di produzione",
             "timestamp": "28/09/2024 - 17:01",
             "favoriteTask": false,
@@ -354,6 +388,7 @@
         },
         {
             "id": 36,
+            "createdByuser": 5,
             "taskDesc": "Crea un piano di emergenza",
             "timestamp": "27/09/2024 - 17:01",
             "favoriteTask": false,
@@ -362,6 +397,7 @@
         },
         {
             "id": 37,
+            "createdByuser": 5,
             "taskDesc": "Sviluppa un'app mobile",
             "timestamp": "26/09/2024 - 17:01",
             "favoriteTask": false,
@@ -370,6 +406,7 @@
         },
         {
             "id": 38,
+            "createdByuser": 4,
             "taskDesc": "Implementa un sistema di feedback",
             "timestamp": "25/09/2024 - 17:01",
             "favoriteTask": false,
@@ -378,6 +415,7 @@
         },
         {
             "id": 39,
+            "createdByuser": 5,
             "taskDesc": "Ottimizza le campagne pubblicitarie",
             "timestamp": "24/09/2024 - 17:01",
             "favoriteTask": false,
@@ -386,6 +424,7 @@
         },
         {
             "id": 40,
+            "createdByuser": 7,
             "taskDesc": "Crea contenuti per il blog",
             "timestamp": "23/09/2024 - 17:01",
             "favoriteTask": false,
@@ -394,6 +433,7 @@
         },
         {
             "id": 41,
+            "createdByuser": 7,
             "taskDesc": "Controlla il traffico del sito web",
             "timestamp": "22/09/2024 - 17:01",
             "favoriteTask": false,
@@ -402,6 +442,7 @@
         },
         {
             "id": 42,
+            "createdByuser": 6,
             "taskDesc": "Monitora le prestazioni della rete",
             "timestamp": "21/09/2024 - 17:01",
             "favoriteTask": false,
@@ -410,6 +451,7 @@
         },
         {
             "id": 43,
+            "createdByuser": 6,
             "taskDesc": "Pianifica una campagna di email marketing",
             "timestamp": "20/09/2024 - 17:01",
             "favoriteTask": false,
@@ -418,6 +460,7 @@
         },
         {
             "id": 44,
+            "createdByuser": 6,
             "taskDesc": "Gestisci i reclami dei clienti",
             "timestamp": "19/09/2024 - 17:01",
             "favoriteTask": false,
@@ -426,6 +469,7 @@
         },
         {
             "id": 45,
+            "createdByuser": 8,
             "taskDesc": "Esegui una revisione delle politiche aziendali",
             "timestamp": "18/09/2024 - 17:01",
             "favoriteTask": false,
@@ -434,6 +478,7 @@
         },
         {
             "id": 46,
+            "createdByuser": 6,
             "taskDesc": "Analizza le recensioni dei clienti",
             "timestamp": "17/09/2024 - 17:01",
             "favoriteTask": false,
@@ -442,6 +487,7 @@
         },
         {
             "id": 47,
+            "createdByuser": 9,
             "taskDesc": "Prepara un piano di lancio",
             "timestamp": "16/09/2024 - 17:01",
             "favoriteTask": false,
@@ -450,6 +496,7 @@
         },
         {
             "id": 48,
+            "createdByuser": 9,
             "taskDesc": "Studia le tendenze di mercato",
             "timestamp": "15/09/2024 - 17:01",
             "favoriteTask": false,
@@ -458,6 +505,7 @@
         },
         {
             "id": 49,
+            "createdByuser": 10,
             "taskDesc": "Crea una strategia di contenuto",
             "timestamp": "14/09/2024 - 17:01",
             "favoriteTask": false,
@@ -466,6 +514,7 @@
         },
         {
             "id": 50,
+            "createdByuser": 10,
             "taskDesc": "Controlla l'inventario",
             "timestamp": "13/09/2024 - 17:01",
             "favoriteTask": false,

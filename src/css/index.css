@@ -22,8 +22,10 @@ div.container{
     width: 850px;
     /* width: 100%; */
     height: 800px;
+    margin-top: 50px;
     border-radius: 20px;
-    overflow: hidden;
+/*     opacity: 0.6;
+ */    overflow: hidden;
     /* box-shadow: 0px 0px 15px 4px  #ffffff;   */
 }
 
@@ -132,8 +134,8 @@ div.task-content{
     max-height: 100%;
     flex-direction: column;
     overflow-y: scroll;
-    padding: 5px;
-    gap: 10px;      
+    padding: 20px 5px;
+    gap: 20px;      
 }
 /* hiding scrollbar on Chrome,Safari,Edge*/
 .task-content::-webkit-scrollbar {
@@ -144,7 +146,8 @@ div.task-content{
     scrollbar-width: none;
 }
 div.task-container div.task{
-    width: 500px;
+    width: 480px;
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -153,9 +156,10 @@ div.task-container div.task{
     padding: 15px;
     border-radius: 8px;
     background-color: #ffffff;
+    box-sizing: border-box;
 }
 div.task-container div.task:hover{
-    opacity: 0.85;
+    opacity: 0.90;
 }
 div.task-info{
     display: flex;
@@ -168,7 +172,7 @@ div.task-info div.info{
     margin-left: 20px;
 }
 p.description{
-    font-size: 20px;
+    font-size: 18px;
 }
 p.time-stamp{
     font-size: small;
@@ -203,9 +207,12 @@ button.fav{
     font-size: medium;
     background-color: #fff;
 }
-button.fav svg{
+button.fav svg.svg{
     width: 24px;
     color: #27148f;
+}
+svg.fill{
+    fill: #27148f;
 }
 div.operations svg,i{
     cursor: pointer;
@@ -222,7 +229,6 @@ input[type="checkbox"] {
     opacity: 0.7;
     border-radius: 15px;
     border: 1px solid green;
-    transition: all 0.4s ease;
     cursor: pointer;
 }
 input[type="checkbox"]:checked {
@@ -270,9 +276,88 @@ button.add-task:hover{
     z-index: 1;
     top: 25px;
     color: #000;
-    background-color: #fff;
+    background-color: #ffffff80;
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
     font-size: medium;
     font-weight: bold;
+}
+
+/* style for Form to add a new task */
+.task-form-container {
+    width: 300px;
+    padding: 20px;
+    display: none;
+    align-self: center;
+    position: absolute;
+    z-index: 1;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#taskForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.task-form-container h2 {
+    margin-bottom: 15px;
+    color: #333333;
+    text-align: center;
+}
+.task-form-container label {
+    display: block;
+    align-self: first baseline;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+.task-form-container input[type="text"],
+.task-form-container textarea,
+.task-form-container input[type="date"],
+.task-form-container input[type="time"] {
+    width: 280px;
+    padding: 8px;
+    align-self:first baseline;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+.task-form-container textarea {
+    resize: none;
+    min-height: 80px;
+}
+div.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.task-form-container button.cancel{
+    width: 100px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color:#999;
+    transition: background-color 0.3 ease;
+}
+.task-form-container button.cancel:hover {
+    background-color: #615f5f;
+}
+.task-form-container button.addtask {
+    width: 180px;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.task-form-container button.addtask:hover {
+    background-color: #0056b3;
 }
