@@ -79,6 +79,11 @@ function addNewtask(){
             console.error("form not found in addNewtask()");
 
         form.style.display = "block";
+
+        // close form
+        document.querySelector('.cancel').addEventListener('click',() => {
+            form.style.display = "none";           
+        })
     })
 }
 addNewtask();
