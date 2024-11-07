@@ -1,4 +1,5 @@
-<html lang="en">
+<!-- <html lang="en"> -->
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,13 @@
     <div class="login">
         <h2>Login</h2>
         <p>Hello,welcome back</p>
-        <form action="">
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Password">
-            <input type="submit" value="Log in"> 
+        <form id="formlogin" action="">
+            <input id="emailogin" type="email" placeholder="Email">
+            <input id="pass" type="password" placeholder="Password">
+            <input id="access" type="submit" value="Accedi"> 
         </form>
-        <p class="smp">Dont't have an account?<a href="register.html">Sign up</a></p>
+        <p class="smp">Non hai un account?<a href="register.html">Registrati</a></p>
     </div>
 </body>
+<script type="module" src="./module-userAuth.js"></script>
 </html>

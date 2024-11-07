@@ -2,11 +2,12 @@
 // Abort control for async requests
 const controller = new AbortController();
 const signal = controller.signal;
+console.log("signale: ",signal);
 
 // Fetching users
-export async function getUsers() {
+export async function getUsers(endpoint = "http://localhost:3000/users") {
     try {
-        const response = await fetch("http://localhost:3000/users",{signal});
+        const response = await fetch(endpoint,{signal});
         const data = await response.json();
         return data;
     } catch (error) {
@@ -24,7 +25,6 @@ export async function getTodos() {
     try {
         const response = await fetch("http://localhost:3000/tasks",{signal});
         const data = await response.json();
-        /* console.log(data); */
         return data;
     } catch (error) {
         if(error == "AbortError"){
@@ -36,15 +36,26 @@ export async function getTodos() {
     }
 }
 
-
 // Posting user on db.json
-export async function postUser(newUserData) {
+export async function postUser(newUserinfo) {
+    /* console.log("newUserinfo: ",newUserinfo); */
     try{
-        const response = await fetch("http://localhost:3000/users",{signal},{
+        const response = await fetch("http://localhost:3000/users",{
             method : "POST",
-            headers : {"Contect-type":"application/json"},
-            body: JSON.stringify(newUserData),
+            headers : {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                "name" : newUserinfo.name,
+                "surname" : newUserinfo.surname,
+                "email": newUserinfo.email,
+                "username" : newUserinfo.username,
+                "passwordA" : newUserinfo.passwordA
+            }),
         });
+        if (!response.ok)
+            throw new Error(`Failed to add user: ${response.status} ${response.statusText}`);
+        
         const userCreated = await response.json();
         console.log("New user added: ",userCreated);
 

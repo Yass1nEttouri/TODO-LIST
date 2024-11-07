@@ -1,12 +1,18 @@
-
+/*             "id" : ""
+            "name": "",
+            "surname": "",
+            "email": "",
+            "username": "",
+            "passwordA": "",
+            "passwordB": "" */
 // Modules imported
-import { getUsers,getTodos,postUser,deleteUser } from "./module-dataAPI.js";
+import { getUsers,getTodos, postUser} from "./module-dataAPI.js";
 import getCurrentDate from "./module-currentDate.js";
 
-const taskDescription = "";
-const toggleFavtask = false;
-const toggleCompletetask = false;
-const toggleDeletetask = false;
+let taskDescription = "";
+let toggleFavtask = false;
+let toggleCompletetask = false;
+let toggleDeletetask = false;
 
 // Task object
 let task = {
@@ -90,20 +96,16 @@ addNewtask();
 
 
 function addTofavorites(){
-    // Event delegation for dynamically created elements
     document.querySelector('.task-content').addEventListener('click', function(event) {
         if (event.target.closest('.fav')) {
-            addTofav(event);
+            // find the SVG element within the clicked `.fav` button
+            const favSvg = event.target.closest('.fav').querySelector('.svg');
+            if (favSvg){
+                favSvg.classList.toggle('fill');
+                toggleFavtask = true;
+            }
         }
     });
-
-    // handle add task to favorites
-    function addTofav(event){
-        // find the SVG element within the clicked `.fav` button
-        const favSvg = event.target.closest('.fav').querySelector('.svg');
-        if (favSvg) 
-            favSvg.classList.toggle('fill');
-    }
 }
 
 
@@ -111,6 +113,7 @@ function addTofavorites(){
 function deleteTask(){
     //....
 }
+
 
 
 // sidebar operations handler
@@ -142,5 +145,3 @@ deleteTask();
 
 useTodos();
 useUsers();
-postUser();
-deleteUser();
