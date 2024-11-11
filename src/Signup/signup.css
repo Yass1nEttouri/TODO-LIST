@@ -1,35 +1,53 @@
+
 *{
-    color: #000000;
+    color: black;
 }
 body{
-    background-image: url("../images/todobg2.avif");
+    background-image: url("../images/back-image.jpeg");
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 a{
     text-decoration: none;
 }
-div.login{
-    max-width: 650px;
-    width: 100%;
-    padding: 25px 20px;
+
+h2{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 500;
+}
+p{
+    margin-top: -7px;
+}
+
+p.smp{
+    font-size: small;
+}
+p a{
+    font-weight: bold;
+    margin-left: 2px;
+    color: #000000;
+}
+
+div.signup{
+    width: 650px;
+    height: 600px;
+    padding: 20px 18px;
     border-radius: 7px;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    color:#000000;
 }
 
 form{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
-
 form input{
     width: 280px;
     height: 40px;
@@ -43,45 +61,40 @@ form input{
     color: black;
     padding-left: 15px;
 }
-form input[type="email"]:focus,
+form input[type="text"]:focus,
+input[type="email"]:focus,
 input[type="password"]:focus{
-    border: 2px solid #30a4ca;
+    border: 2px solid rgb(48, 164, 202);
 }
 form input::placeholder{
     padding-left: 3px;
     font-size: medium;
 }
-
 form input[type="submit"]{
     font-size: 17px;
     font-weight: bold;
+    align-self: center;
     background-color: #000000;
-    color: white;
+    color: #fff;
     border-radius: 10px;
     height: 50px;
+    
 }
 form input[type="submit"]:hover{
     cursor: pointer;
     opacity: 0.95;
 }
+
 form input[type="submit"]:active{
     transform: translateY(1px);
 }
 
-h2{
-    font-size: 30px;
-    color: #000000;
-    font-weight: 500;
-}
-p{
-    margin-top: -7px;
-}
-p.smp{
-    font-size: small;
-}
-p a{
-    font-weight: bold;
-    margin-left: 2px;
-    color: #000000;
+form svg{
+    opacity: 0;
+    position: absolute;
+    top: -5px; 
+    left: 10px; 
+    width: 24px;
+    z-index: 1;
 }
 

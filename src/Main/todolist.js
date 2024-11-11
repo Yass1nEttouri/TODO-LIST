@@ -1,13 +1,8 @@
-/*             "id" : ""
-            "name": "",
-            "surname": "",
-            "email": "",
-            "username": "",
-            "passwordA": "",
-            "passwordB": "" */
+
 // Modules imported
-import { getUsers,getTodos, postUser} from "./module-dataAPI.js";
-import getCurrentDate from "./module-currentDate.js";
+import { getUsers,getTodos, postUser} from "../module-dataAPI.js";
+import getCurrentDate from "../module-currentDate.js";
+import { currentUser } from "../Signin/sign-in-module.js";
 
 let taskDescription = "";
 let toggleFavtask = false;

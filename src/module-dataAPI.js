@@ -1,14 +1,16 @@
 
 // Abort control for async requests
-const controller = new AbortController();
+/* const controller = new AbortController();
 const signal = controller.signal;
-console.log("signale: ",signal);
+console.log("signale: ",signal); */
 
 // Fetching users
-export async function getUsers(endpoint = "http://localhost:3000/users") {
+
+export async function getUsers(endpoint = 'http://localhost:3000/users') {
     try {
-        const response = await fetch(endpoint,{signal});
+        const response = await fetch(endpoint);
         const data = await response.json();
+        console.log("data: ",data);
         return data;
     } catch (error) {
         if(error.name == "AbortError"){
@@ -23,7 +25,8 @@ export async function getUsers(endpoint = "http://localhost:3000/users") {
 // Fetching todos
 export async function getTodos() {
     try {
-        const response = await fetch("http://localhost:3000/tasks",{signal});
+        const endpoint = "http://localhost:3000/tasks";
+        const response = await fetch(endpoint);
         const data = await response.json();
         return data;
     } catch (error) {
@@ -70,7 +73,7 @@ export async function postUser(newUserinfo) {
 // Deleting user with id from db.json
 export async function deleteUser(id) {
     try {
-        const response = await fetch(`http://localhost:3000/users/${id}`,{signal}, {
+        const response = await fetch(`http://localhost:3000/users/${id}`,{
             method: "DELETE",
         });
         if (response.ok)

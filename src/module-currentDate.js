@@ -1,3 +1,5 @@
+// module used to get current timestamp
+
 export default function getCurrentDate(){
     let currentDate = new Date();
     let year = currentDate.getFullYear(); 

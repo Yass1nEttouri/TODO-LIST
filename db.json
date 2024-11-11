@@ -1,6 +1,13 @@
 {
   "users": [
-    
+    {
+      "id": "ed6a",
+      "name": "yassine",
+      "surname": "ettouri",
+      "email": "yasinetouri54@gmail.com",
+      "username": "yasinetouri54",
+      "passwordA": "$2a$10$W3DOcCxRlsGKRAMSArSXX.bIphXVY9jlHp6aq81yYIyK2DmFx8rfG"
+    }
   ],
   "tasks": [
     {
